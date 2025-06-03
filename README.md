@@ -70,7 +70,7 @@
 
   <section class="musica">
     <h2>Nossa música 🎶</h2>
-    <iframe width="300" height="169" src="https://www.youtube.com/embed/ezQtqDWZ3_A" frameborder="0" allowfullscreen></iframe>
+    <iframe width="300" height="169" src="https://open.spotify.com/intl-pt/track/3PWfXDkLIqfbTdEyv812za?si=dd579d6efd9d4ed5" frameborder="0" allowfullscreen></iframe>
   </section>
 
   <section class="fotos">
