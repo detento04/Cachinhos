@@ -1,31 +1,26 @@
-<!DOCTYPE html>
+
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Feliz Aniversário, Amor!</title>
   <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
 </head>
 <body>
   <div class="container">
-    <h1>Feliz Aniversário, meu amor! 🎉</h1>
-    <p>Hoje é o seu dia, e eu fiz esse presente só pra você 💖</p>
-    
-    <img src="assets/imagem.jpg" alt="Foto de nós dois" class="foto" />
+    <h1>Feliz Aniversário, Meu Amor 🎉</h1>
 
-    <p class="mensagem">
-      Desde que você entrou na minha vida, tudo ficou mais bonito.
-      Obrigado por ser tão incrível, por me fazer sorrir e por estar ao meu lado.
-      Te amo demais! 💕
-    </p>
+    <p id="mensagem" class="mensagem"></p>
 
-    <video controls class="video">
-      <source src="assets/video.mp4" type="video/mp4" />
-    </video>
+    <div class="galeria">
+      <img src="foto1.jpg" alt="Nós dois">
+      <img src="foto2.jpg" alt="Ela olhando o mar">
+      <img src="foto3.jpg" alt="Na praia de óculos">
+    </div>
 
-    <audio controls autoplay loop class="musica">
-      <source src="assets/musica.mp3" type="audio/mp3" />
-    </audio>
+    <button id="playPauseBtn">🎵 Tocar Música</button>
+    <audio id="musica" src="https://dl.sndup.net/krk6/lagrimas-do-bacu.mp3" loop></audio>
   </div>
 </body>
 </html>
